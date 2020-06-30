@@ -18,7 +18,6 @@
 .center {
   height: 450px;
   width: 700px;
-  /* background-color: blue; */
   margin: 5px 10px;
 }
 
@@ -31,7 +30,6 @@
 .col-left {
   height: 300px;
   width: 25%;
-  /* margin-right: : 1%; */
   background-color: #CC87DA;
   float: left;
 }
@@ -47,7 +45,13 @@
 .box {
   height: 200px;
   width: 25%;
-  /* margin-left: 1%; */
-  background-color: #A4D2E1;
+  background-color: #CC87DA;
   float: left;
+}
+
+.foot {
+  height: 100px;
+  margin: 5px 10px;
+  background-color: #A4D2E1;
+
 }
