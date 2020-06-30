@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.titolo {
+  height: 150px;
+  background-color: #FEFE3A;
+  margin: 5px;
+}
