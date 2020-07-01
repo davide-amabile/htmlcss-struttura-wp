@@ -10,47 +10,43 @@
 /* header */
 .titolo {
   height: 125px;
-  width: 700px;
+  /* width: 700px; */
   background-color: #FEFE3A;
-  margin: 5px 10px;
+  margin-bottom:  5px;
 }
 /* corpo centrale */
 .center {
-  height: 450px;
-  width: 700px;
-  margin: 5px 10px;
+
 }
 
-.main::after {
+main::after {
   content: "";
   display: block;
   clear: both;
 }
 /* box left */
 .col-left {
-  height: 300px;
   width: 25%;
   background-color: #CC87DA;
   float: left;
 }
 /* box middle */
 .col-center {
-  height: 100%;
   width: 46%;
   margin: 0 2%;
   background-color: #730671;
   float: left;
 }
 /* box right */
-.box {
-  height: 200px;
+.col-right {
   width: 25%;
   background-color: #CC87DA;
   float: left;
 }
 
-.over {
-  margin-bottom: 4px;
+.box {
+  margin-bottom: 10px;
+  background-color: red;
 }
 /* footer */
 .foot {
